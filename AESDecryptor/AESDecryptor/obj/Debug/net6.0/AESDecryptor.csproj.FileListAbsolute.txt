@@ -1,0 +1,15 @@
+F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\bin\Debug\net6.0\AESDecryptor.exe
+F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\bin\Debug\net6.0\AESDecryptor.deps.json
+F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\bin\Debug\net6.0\AESDecryptor.runtimeconfig.json
+F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\bin\Debug\net6.0\AESDecryptor.dll
+F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\bin\Debug\net6.0\AESDecryptor.pdb
+F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\obj\Debug\net6.0\AESDecryptor.csproj.AssemblyReference.cache
+F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\obj\Debug\net6.0\AESDecryptor.GeneratedMSBuildEditorConfig.editorconfig
+F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\obj\Debug\net6.0\AESDecryptor.AssemblyInfoInputs.cache
+F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\obj\Debug\net6.0\AESDecryptor.AssemblyInfo.cs
+F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\obj\Debug\net6.0\AESDecryptor.csproj.CoreCompileInputs.cache
+F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\obj\Debug\net6.0\AESDecryptor.dll
+F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\obj\Debug\net6.0\refint\AESDecryptor.dll
+F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\obj\Debug\net6.0\AESDecryptor.pdb
+F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\obj\Debug\net6.0\AESDecryptor.genruntimeconfig.cache
+F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\obj\Debug\net6.0\ref\AESDecryptor.dll
