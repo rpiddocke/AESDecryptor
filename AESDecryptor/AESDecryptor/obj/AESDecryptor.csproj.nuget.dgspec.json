@@ -45,9 +45,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "BouncyCastle.NetCore": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
             "System.Security.Cryptography.OpenSsl": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "openssl-vc141-static-x86_64": {
+              "target": "Package",
+              "version": "[1.1.0, )"
             }
           },
           "imports": [

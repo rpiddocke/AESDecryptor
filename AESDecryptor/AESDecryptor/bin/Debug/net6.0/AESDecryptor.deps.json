@@ -8,12 +8,23 @@
     ".NETCoreApp,Version=v6.0": {
       "AESDecryptor/1.0.0": {
         "dependencies": {
-          "System.Security.Cryptography.OpenSsl": "5.0.0"
+          "BouncyCastle.NetCore": "2.2.1",
+          "System.Security.Cryptography.OpenSsl": "5.0.0",
+          "openssl-vc141-static-x86_64": "1.1.0"
         },
         "runtime": {
           "AESDecryptor.dll": {}
         }
       },
+      "BouncyCastle.NetCore/2.2.1": {
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "openssl-vc141-static-x86_64/1.1.0": {},
       "System.Formats.Asn1/5.0.0": {},
       "System.Security.Cryptography.OpenSsl/5.0.0": {
         "dependencies": {
@@ -27,6 +38,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BouncyCastle.NetCore/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yfWn8JYPc4rkeM2kcsCqFVFOvwCuuQvIieGtQWcjoWxOioeznXQB3M/GmHgbCWbJjc8ycrwGhZaZPiasifYi4A==",
+      "path": "bouncycastle.netcore/2.2.1",
+      "hashPath": "bouncycastle.netcore.2.2.1.nupkg.sha512"
+    },
+    "openssl-vc141-static-x86_64/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zKUWQX+jJHeGJr+SA3ejUQBJKJqiM9OrPlbyLGslMsMM2xRm0Tx3yCMp6IDEb2H5qG3q7snx+U/F2qOq5mdx/Q==",
+      "path": "openssl-vc141-static-x86_64/1.1.0",
+      "hashPath": "openssl-vc141-static-x86_64.1.1.0.nupkg.sha512"
     },
     "System.Formats.Asn1/5.0.0": {
       "type": "package",

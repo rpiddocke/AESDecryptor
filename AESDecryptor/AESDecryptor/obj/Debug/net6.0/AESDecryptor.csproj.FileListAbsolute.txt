@@ -13,3 +13,5 @@ F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\obj\D
 F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\obj\Debug\net6.0\AESDecryptor.pdb
 F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\obj\Debug\net6.0\AESDecryptor.genruntimeconfig.cache
 F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\obj\Debug\net6.0\ref\AESDecryptor.dll
+F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+F:\Documents\GitHub\VSCode Projects\AESDecryptor\AESDecryptor\AESDecryptor\obj\Debug\net6.0\AESDecryptor.csproj.CopyComplete

@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "BouncyCastle.NetCore/2.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "openssl-vc141-static-x86_64/1.1.0": {
+        "type": "package"
+      },
       "System.Formats.Asn1/5.0.0": {
         "type": "package",
         "compile": {
@@ -40,6 +56,158 @@
     }
   },
   "libraries": {
+    "BouncyCastle.NetCore/2.2.1": {
+      "sha512": "yfWn8JYPc4rkeM2kcsCqFVFOvwCuuQvIieGtQWcjoWxOioeznXQB3M/GmHgbCWbJjc8ycrwGhZaZPiasifYi4A==",
+      "type": "package",
+      "path": "bouncycastle.netcore/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bouncycastle.netcore.2.2.1.nupkg.sha512",
+        "bouncycastle.netcore.nuspec",
+        "lib/net45/BouncyCastle.Crypto.dll",
+        "lib/net45/BouncyCastle.Crypto.xml",
+        "lib/netstandard2.0/BouncyCastle.Crypto.dll",
+        "lib/netstandard2.0/BouncyCastle.Crypto.xml"
+      ]
+    },
+    "openssl-vc141-static-x86_64/1.1.0": {
+      "sha512": "zKUWQX+jJHeGJr+SA3ejUQBJKJqiM9OrPlbyLGslMsMM2xRm0Tx3yCMp6IDEb2H5qG3q7snx+U/F2qOq5mdx/Q==",
+      "type": "package",
+      "path": "openssl-vc141-static-x86_64/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/native/include/openssl/__DECC_INCLUDE_EPILOGUE.H",
+        "build/native/include/openssl/__DECC_INCLUDE_PROLOGUE.H",
+        "build/native/include/openssl/aes.h",
+        "build/native/include/openssl/asn1.h",
+        "build/native/include/openssl/asn1_mac.h",
+        "build/native/include/openssl/asn1t.h",
+        "build/native/include/openssl/async.h",
+        "build/native/include/openssl/bio.h",
+        "build/native/include/openssl/blowfish.h",
+        "build/native/include/openssl/bn.h",
+        "build/native/include/openssl/buffer.h",
+        "build/native/include/openssl/camellia.h",
+        "build/native/include/openssl/cast.h",
+        "build/native/include/openssl/cmac.h",
+        "build/native/include/openssl/cms.h",
+        "build/native/include/openssl/comp.h",
+        "build/native/include/openssl/conf.h",
+        "build/native/include/openssl/conf_api.h",
+        "build/native/include/openssl/crypto.h",
+        "build/native/include/openssl/ct.h",
+        "build/native/include/openssl/des.h",
+        "build/native/include/openssl/dh.h",
+        "build/native/include/openssl/dsa.h",
+        "build/native/include/openssl/dtls1.h",
+        "build/native/include/openssl/e_os2.h",
+        "build/native/include/openssl/ebcdic.h",
+        "build/native/include/openssl/ec.h",
+        "build/native/include/openssl/ecdh.h",
+        "build/native/include/openssl/ecdsa.h",
+        "build/native/include/openssl/engine.h",
+        "build/native/include/openssl/err.h",
+        "build/native/include/openssl/evp.h",
+        "build/native/include/openssl/hmac.h",
+        "build/native/include/openssl/idea.h",
+        "build/native/include/openssl/kdf.h",
+        "build/native/include/openssl/lhash.h",
+        "build/native/include/openssl/md2.h",
+        "build/native/include/openssl/md4.h",
+        "build/native/include/openssl/md5.h",
+        "build/native/include/openssl/mdc2.h",
+        "build/native/include/openssl/modes.h",
+        "build/native/include/openssl/obj_mac.h",
+        "build/native/include/openssl/objects.h",
+        "build/native/include/openssl/ocsp.h",
+        "build/native/include/openssl/opensslconf.h",
+        "build/native/include/openssl/opensslv.h",
+        "build/native/include/openssl/ossl_typ.h",
+        "build/native/include/openssl/pem.h",
+        "build/native/include/openssl/pem2.h",
+        "build/native/include/openssl/pkcs12.h",
+        "build/native/include/openssl/pkcs7.h",
+        "build/native/include/openssl/rand.h",
+        "build/native/include/openssl/rc2.h",
+        "build/native/include/openssl/rc4.h",
+        "build/native/include/openssl/rc5.h",
+        "build/native/include/openssl/ripemd.h",
+        "build/native/include/openssl/rsa.h",
+        "build/native/include/openssl/safestack.h",
+        "build/native/include/openssl/seed.h",
+        "build/native/include/openssl/sha.h",
+        "build/native/include/openssl/srp.h",
+        "build/native/include/openssl/srtp.h",
+        "build/native/include/openssl/ssl.h",
+        "build/native/include/openssl/ssl2.h",
+        "build/native/include/openssl/ssl3.h",
+        "build/native/include/openssl/stack.h",
+        "build/native/include/openssl/symhacks.h",
+        "build/native/include/openssl/tls1.h",
+        "build/native/include/openssl/ts.h",
+        "build/native/include/openssl/txt_db.h",
+        "build/native/include/openssl/ui.h",
+        "build/native/include/openssl/whrlpool.h",
+        "build/native/include/openssl/x509.h",
+        "build/native/include/openssl/x509_vfy.h",
+        "build/native/include/openssl/x509v3.h",
+        "build/native/lib/Win32/dynamic/capi.dll",
+        "build/native/lib/Win32/dynamic/dasync.dll",
+        "build/native/lib/Win32/dynamic/libcrypto-1_1.dll",
+        "build/native/lib/Win32/dynamic/libssl-1_1.dll",
+        "build/native/lib/Win32/dynamic/msvcr120.dll",
+        "build/native/lib/Win32/dynamic/ossltest.dll",
+        "build/native/lib/Win32/dynamic/padlock.dll",
+        "build/native/lib/Win32/static/Debug/capi.lib",
+        "build/native/lib/Win32/static/Debug/dasync.lib",
+        "build/native/lib/Win32/static/Debug/libcrypto-1_1.def",
+        "build/native/lib/Win32/static/Debug/libcrypto.lib",
+        "build/native/lib/Win32/static/Debug/libssl-1_1.def",
+        "build/native/lib/Win32/static/Debug/libssl.lib",
+        "build/native/lib/Win32/static/Debug/openssl.lib",
+        "build/native/lib/Win32/static/Debug/ossltest.lib",
+        "build/native/lib/Win32/static/Debug/padlock.lib",
+        "build/native/lib/Win32/static/Release/capi.lib",
+        "build/native/lib/Win32/static/Release/dasync.lib",
+        "build/native/lib/Win32/static/Release/libcrypto-1_1.def",
+        "build/native/lib/Win32/static/Release/libcrypto.lib",
+        "build/native/lib/Win32/static/Release/libssl-1_1.def",
+        "build/native/lib/Win32/static/Release/libssl.lib",
+        "build/native/lib/Win32/static/Release/openssl.lib",
+        "build/native/lib/Win32/static/Release/ossltest.lib",
+        "build/native/lib/Win32/static/Release/padlock.lib",
+        "build/native/lib/x64/dynamic/capi.dll",
+        "build/native/lib/x64/dynamic/dasync.dll",
+        "build/native/lib/x64/dynamic/libcrypto-1_1-x64.dll",
+        "build/native/lib/x64/dynamic/libssl-1_1-x64.dll",
+        "build/native/lib/x64/dynamic/msvcr120.dll",
+        "build/native/lib/x64/dynamic/ossltest.dll",
+        "build/native/lib/x64/dynamic/padlock.dll",
+        "build/native/lib/x64/static/Debug/capi.lib",
+        "build/native/lib/x64/static/Debug/dasync.lib",
+        "build/native/lib/x64/static/Debug/libcrypto-1_1-x64.def",
+        "build/native/lib/x64/static/Debug/libcrypto.lib",
+        "build/native/lib/x64/static/Debug/libssl-1_1-x64.def",
+        "build/native/lib/x64/static/Debug/libssl.lib",
+        "build/native/lib/x64/static/Debug/openssl.lib",
+        "build/native/lib/x64/static/Debug/ossltest.lib",
+        "build/native/lib/x64/static/Debug/padlock.lib",
+        "build/native/lib/x64/static/Release/capi.lib",
+        "build/native/lib/x64/static/Release/dasync.lib",
+        "build/native/lib/x64/static/Release/libcrypto-1_1-x64.def",
+        "build/native/lib/x64/static/Release/libcrypto.lib",
+        "build/native/lib/x64/static/Release/libssl-1_1-x64.def",
+        "build/native/lib/x64/static/Release/libssl.lib",
+        "build/native/lib/x64/static/Release/openssl.lib",
+        "build/native/lib/x64/static/Release/ossltest.lib",
+        "build/native/lib/x64/static/Release/padlock.lib",
+        "build/native/openssl-vc141-static-x86_64.targets",
+        "openssl-vc141-static-x86_64.1.1.0.nupkg.sha512",
+        "openssl-vc141-static-x86_64.nuspec"
+      ]
+    },
     "System.Formats.Asn1/5.0.0": {
       "sha512": "MTvUIktmemNB+El0Fgw9egyqT9AYSIk6DTJeoDSpc3GIHxHCMo8COqkWT1mptX5tZ1SlQ6HJZ0OsSvMth1c12w==",
       "type": "package",
@@ -103,7 +271,9 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "System.Security.Cryptography.OpenSsl >= 5.0.0"
+      "BouncyCastle.NetCore >= 2.2.1",
+      "System.Security.Cryptography.OpenSsl >= 5.0.0",
+      "openssl-vc141-static-x86_64 >= 1.1.0"
     ]
   },
   "packageFolders": {
@@ -151,9 +321,17 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "BouncyCastle.NetCore": {
+            "target": "Package",
+            "version": "[2.2.1, )"
+          },
           "System.Security.Cryptography.OpenSsl": {
             "target": "Package",
             "version": "[5.0.0, )"
+          },
+          "openssl-vc141-static-x86_64": {
+            "target": "Package",
+            "version": "[1.1.0, )"
           }
         },
         "imports": [
